@@ -1,0 +1,8 @@
+{
+  "name": "adaptive-dialogs-custom-action",
+  "private": true,
+  "workspaces": ["empty_bot", "multiply_dialog_package"],
+  "scripts": {
+    "dev": "yarn workspace empty_bot dev"
+  }
+}

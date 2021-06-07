@@ -1,5 +1,6 @@
 {
   "name": "empty_bot",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=dev node index.js"
@@ -15,6 +16,6 @@
     "botbuilder-dialogs-adaptive-runtime-integration-express": "4.13.5-preview",
     "botbuilder-dialogs-declarative": "4.13.5-preview",
     "cross-env": "latest",
-    "multiply-dialog-package": "file:../multiply_dialog_package"
+    "multiply-dialog-package": "1.0.0"
   }
 }
