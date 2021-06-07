@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schemas.botframework.com/schemas/component/v1.0/component.schema",
+    "$role": "implements(Microsoft.IDialog)",
+    "title": "Multiply",
+    "description": "This will return the result of arg1*arg2",
+    "type": "object",
+    "additionalProperties": false,
+    "id": "MultiplyDialog",
+    "defaultResultProperty": "dialog.result",
+    "properties": {
+        "arg1": {
+            "$ref": "schema:#/definitions/numberExpression",
+            "title": "Arg1",
+            "description": "Value from callers memory to use as arg 1"
+        },
+        "arg2": {
+            "$ref": "schema:#/definitions/numberExpression",
+            "title": "Arg2",
+            "description": "Value from callers memory to use as arg 2"
+        },
+        "resultProperty": {
+            "$ref": "schema:#/definitions/stringExpression",
+            "title": "Result",
+            "description": "Value from callers memory to store the result"
+        }
+    }
+}

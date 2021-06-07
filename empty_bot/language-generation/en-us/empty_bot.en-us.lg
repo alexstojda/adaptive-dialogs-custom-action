@@ -1,0 +1,15 @@
+[import](common.lg)
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = Lets do a multiplication: 5x5 = ?
+]
+
+# SendActivity_mo1t1C()
+[Activity
+    Text = Result is ${dialog.result}
+]
+
+
+# SendActivity_90AgFo()
+-

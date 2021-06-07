@@ -1,0 +1,20 @@
+{
+  "name": "empty_bot",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev node index.js"
+  },
+  "dependencies": {
+    "adaptive-expressions": "4.13.5",
+    "botbuilder": "4.13.5",
+    "botbuilder-dialogs": "4.13.5",
+    "botbuilder-ai-luis": "4.13.5-preview",
+    "botbuilder-ai-qna": "4.13.5-preview",
+    "botbuilder-dialogs-adaptive": "4.13.5-preview",
+    "botbuilder-dialogs-adaptive-runtime-core": "4.13.5-preview",
+    "botbuilder-dialogs-adaptive-runtime-integration-express": "4.13.5-preview",
+    "botbuilder-dialogs-declarative": "4.13.5-preview",
+    "cross-env": "latest",
+    "multiply-dialog-package": "file:../multiply_dialog_package"
+  }
+}
